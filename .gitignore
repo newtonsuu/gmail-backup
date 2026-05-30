@@ -1,0 +1,16 @@
+# Secrets / OAuth — never commit these
+credentials.json
+token.json
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Backups (the data itself shouldn't live in the repo)
+EmailBackup/
+*.db
+*.xlsx
